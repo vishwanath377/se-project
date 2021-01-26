@@ -15,22 +15,17 @@ void main()
               int others;
               printf("enter amount u want to donate for orphan");
               scanf("%d",&orphan);
-              if(orphan<=1000)
-                others=orphan*10/100;
-              printf("%d" is been cut for others",tax);
-              printf("\n Thanks for donating");
-              else
-                     printf("\n Thanks for donating %d amount",orphan);
+              printf("\n Thanks for donating %d amount",orphan);
               break;
         case 2:
               printf("\n enter amount u want to donate for oldage");
               scanf("%d",&oldage);
-              printf("\n Thanks for donating %d amount");
+              printf("\n Thanks for donating %d amount",oldage);
               break;
         case 3:
               printf("\n enter amount u want to donate for natural disaster victims");
               scanf("%d",&disaster);
-              printf("\n Thanks for donating %d amount");
+              printf("\n Thanks for donating %d amount",disaster);
               break;
         default:
               ("Sorry u have entered wrong one");
