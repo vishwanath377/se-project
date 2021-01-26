@@ -12,9 +12,15 @@ void main()
        switch(choice)
        {
         case 1:
+              int others;
               printf("enter amount u want to donate for orphan");
               scanf("%d",&orphan);
-              printf("\n Thanks for donating %d amount");
+              if(orphan<=1000)
+                others=orphan*10/100;
+              printf("%d" is been cut for others",tax);
+              printf("\n Thanks for donating");
+              else
+                     printf("\n Thanks for donating %d amount",orphan);
               break;
         case 2:
               printf("\n enter amount u want to donate for oldage");
